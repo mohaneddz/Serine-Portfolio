@@ -1,7 +1,12 @@
-export default function page () {
+import Return from "@/components/Return";
+
+export default function page() {
   return (
-    <section>
-      Social Media
-    </section>
+    <main className="full center min-h-screen py-8 pl-16">
+      <h1 className="text-7xl text-primary-dim">
+        Social Media
+      </h1>
+      <Return />
+    </main>
   );
 };
