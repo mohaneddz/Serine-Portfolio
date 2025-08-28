@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-import TitleTag from "@/components/TitleTag";
+import SimpleTitleTag from "@/components/SimpleTitleTag";
+import Return from "@/components/Return";
 
 const ae = '/svgs/resume/ae.svg'
 const ai = '/svgs/resume/ai.svg'
@@ -16,7 +17,7 @@ export default function page() {
 
       <div className="full relative">
 
-        <TitleTag text="EDUCATION" fontSize={24} paddingY={12} paddingX={20} />
+        <SimpleTitleTag text="EDUCATION" className="w-max" />
 
         <div className="flex flex-col gap-8 my-8">
 
@@ -32,7 +33,7 @@ export default function page() {
 
         </div>
 
-        <TitleTag text="SKILLS" fontSize={24} paddingY={12} paddingX={20} />
+        <SimpleTitleTag text="SKILLS" className="w-max" />
 
         <div className="flex flex-col gap-8 my-8 ml-1">
           <div className="flex gap-4 hover-scale">
@@ -52,7 +53,7 @@ export default function page() {
       </div>
 
       <div className="full relative">
-        <TitleTag text="EXPERIENCE" fontSize={24} paddingY={12} paddingX={20} />
+        <SimpleTitleTag text="EXPERIENCE" className="w-max" />
 
         <div className="flex flex-col gap-8 my-8">
 
@@ -77,6 +78,8 @@ export default function page() {
         </div>
 
       </div>
+
+      <Return />
 
     </main>
   );

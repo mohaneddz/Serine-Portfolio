@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import TitleTag from "@/components/TitleTag";   
+import SimpleTitleTag from "@/components/SimpleTitleTag";
 import TextBox from "@/components/TextBox";
 
 const webWindow = '/svgs/misc/web-window.svg'
@@ -32,7 +32,7 @@ export default function G2KM() {
 
                 <div className="w-full max-w-[60%] relative">
 
-                    <TitleTag text="Manaa serine" fontSize={32} paddingY={18} paddingX={32} className="absolute -top-24" />
+                    <SimpleTitleTag text="G2KM" className="absolute -top-14 left-2 z-30" />
                     <TextBox text={text} className="relative" />
 
                     <div className="flex gap-8 items-end">
