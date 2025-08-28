@@ -20,10 +20,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "MANAA Serine",
   description: "My personal Portfolio!",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#000000" },
-  ],
 };
 
 export default function RootLayout({
