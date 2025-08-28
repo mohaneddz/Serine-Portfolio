@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.center{
+    @apply flex justify-center items-center;
+}
+
+.full{
+    @apply w-full h-full;
+}
+
+.screen{
+    @apply w-screen h-screen;
+}
+
+.hover-scale{
+    @apply transition-transform duration-200 hover:scale-105 cursor-pointer;
+}
+.hover-scale-lg{
+    @apply transition-transform duration-200 hover:scale-110 hover:drop-shadow-lg cursor-pointer;
+}
+.hover-primary{
+    @apply transition-colors duration-200 cursor-pointer;
+}
+
+.hover-social{
+    @apply transition duration-200 hover:scale-110 hover:drop-shadow-md cursor-pointer hover:brightness-90;
+}
+
+.click{
+    @apply transition-transform duration-200 active:scale-95 cursor-pointer;
+}

@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body{
+    /* cooper font */
+    font-family: 'Cooper', sans-serif;
+}

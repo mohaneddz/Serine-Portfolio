@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and old Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Optional: ensure scroll still works */
+html, body {
+  overflow-y: scroll; /* keep scrolling */
+  overflow-x: hidden; /* no horizontal scroll */
+}
+
+html{
+
+  @media screen and (max-width: 360px) {
+    font-size: 6px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 8px;
+  }
+
+  @media screen and (max-width: 720px) {
+    font-size: 10px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 12px;
+  }
+
+  @media screen and (max-width: 1440px) {
+    font-size: 14px;
+  }
+}
