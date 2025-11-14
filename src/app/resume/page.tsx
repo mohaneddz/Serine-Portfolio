@@ -42,7 +42,7 @@ export default function page() {
     <main className="full min-h-screen grid lg:grid-cols-2 py-8 pl-16">
 
       {/* LEFT SIDE */}
-      <div className="full relative">
+      <div className="full relative p-8">
         <SimpleTitleTag text="EDUCATION" className="w-max fade-slide-up" style={{ '--delay': '0s' } as React.CSSProperties} />
 
         <div className="flex flex-col gap-8 my-8">
@@ -75,7 +75,7 @@ export default function page() {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="full relative">
+      <div className="full relative p-8">
         <SimpleTitleTag text="EXPERIENCE" className="w-max fade-slide-up" style={{ '--delay': '0s' } as React.CSSProperties} />
 
         <div className="flex flex-col gap-8 my-8">

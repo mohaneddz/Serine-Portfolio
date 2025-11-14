@@ -24,3 +24,11 @@ body {
 /* ::selection{
   @apply bg-tertiary text-white;
 } */
+
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* WebKit browsers */
+}
