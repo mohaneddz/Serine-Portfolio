@@ -91,7 +91,7 @@ export default function G2KM() {
                     <Image src={webWindow} alt="Web Window" width={800} height={600} className="w-full fade-slide-up" style={{ "--delay": "4.1s" } as React.CSSProperties} />
 
                     <div className="absolute -bottom-4 -left-28 hover-scale fade-slide-up" style={{ "--delay": "4.2s" } as React.CSSProperties}>
-                        <Image src={heartPopup} alt="Heart Popup" width={80} height={80} className="absolute -top-12 left-4 fade-slide-up" style={{ "--delay": "4.3s" } as React.CSSProperties} />
+                        <Image src={heartPopup} alt="Heart Popup" width={80} height={80} className="absolute -top-12 left-4 fade-slide-up z-30 animate-float" style={{ "--delay": "4.3s" } as React.CSSProperties} />
                         <Image src={pfp} alt="Profile Picture" width={240} height={240} className="fade-slide-up" style={{ "--delay": "4.4s" } as React.CSSProperties} />
                     </div>
 

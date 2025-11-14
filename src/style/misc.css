@@ -39,3 +39,8 @@ html{
     font-size: 14px;
   }
 }
+
+::selection{
+  background-color: #CEB5D3;
+  color: white
+}
