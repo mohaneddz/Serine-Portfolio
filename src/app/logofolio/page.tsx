@@ -12,7 +12,7 @@ export default function LogofolioLayout() {
 
   function changeLogo(id: number) {
     setId(id);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0});
   }
 
   return (
