@@ -1,3 +1,5 @@
+![Designer Portfolio](screenshots/cover.avif)
+
 <h1 style="font-family: Arial, sans-serif; font-size: 36px; color: #EC4899; display: flex; align-items: center; border-bottom: 3px solid #EC4899; padding-bottom: 5px;">
     SERINE - The Designer You Need 🎨
 </h1>
